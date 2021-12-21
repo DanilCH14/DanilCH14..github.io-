@@ -267,9 +267,6 @@ body{
     }
     .about{
         margin-top: 10%;
-        background: #F5F4F4;
-        border: double 3em #346B98;
-        border-radius: 3em;
         width: 95%;
         box-sizing: border-box;
     }
