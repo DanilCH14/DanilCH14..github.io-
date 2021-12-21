@@ -94,6 +94,7 @@ body{
     border-radius: 3em;
     text-decoration: none;
     display: flex;
+    color: transparent;
     justify-content: center;
     align-items: center;
     transition: .2s ease-in-out;
@@ -108,14 +109,14 @@ body{
 }
 
 .contacts__item_vk:hover{
-    background-color: #467FC2;
+    background-color: #EA4235;
      transform: translateY(-5px);
 }
 
 
 
 .contacts__item_twitter:hover{
-    background-color: #7489DC;
+    background-color: #EA4235;
      transform: translateY(-5px);
 }
 
@@ -215,7 +216,9 @@ body{
 }
 
 
-
+.me:hover{
+    transform: translateX(-10px);
+}
 @media screen and (max-width: 1920px){
     body{
         font-size: 0.63vw;
